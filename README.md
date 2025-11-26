@@ -1,7 +1,7 @@
 # customizing-moode-audio
 
 ## Power LED
-- /boot/firmware/config.txt
+- append in /boot/firmware/config.txt
 ```
 # RGB
 # blue
@@ -40,4 +40,8 @@ dtparam=act_led_gpio=1,act_led_trigger=mmc1
   - support short press, double press and long press
 - moode audio config setting
   - config > Peripherals > Other peripherals section > GPIO Buttons to Enable
-  - Edit GPIO Pin mappings : Buttone1: enable, GPIO: 17, Cmd: mpc toggle,mpc single & mpc repeat,/var/local/www/commandw/restart.sh poweroff
+  - Edit GPIO Pin mappings
+    - **Buttone1**: enable
+    - **GPIO**: 17
+    - **Cmd**: mpc toggle,mpc single & mpc repeat,/var/local/www/commandw/restart.sh poweroff
+  - **Cnd**: (short press command),(double press command),(long press command)
