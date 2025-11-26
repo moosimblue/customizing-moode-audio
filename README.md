@@ -35,3 +35,9 @@ dtparam=act_led_gpio=1,act_led_trigger=mmc1
 | 15 | 22   | A(CLK) |
 
 ![Rotary Encoder](https://microcontrollerslab.com/wp-content/uploads/2021/11/Rotary-Encoder-pin-out.jpg)
+
+- change the file at /var/www/daemon/gpio_buttons.py from gpio_buttons_vx.py
+  - support short press, double press and long press
+- moode audio config setting
+  - config > Peripherals > Other peripherals section > GPIO Buttons to Enable
+  - Edit GPIO Pin mappings : Buttone1: enable, GPIO: 17, Cmd: mpc toggle,mpc single & mpc repeat,/var/local/www/commandw/restart.sh poweroff
