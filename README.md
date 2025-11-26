@@ -13,6 +13,7 @@ gpio=8=op,dl
 dtparam=act_led_gpio=1,act_led_trigger=mmc1
 ```
 - pinout
+
 | RPi Pin | GPIO | RGB |
 |---|---|---|
 | 20 | GND | GND(-) |
@@ -24,6 +25,7 @@ dtparam=act_led_gpio=1,act_led_trigger=mmc1
 
 ## Rotary Encoder
 - pinout
+
 | RPi Pin | GPIO | Rotary Encoder |
 |---|---|---|
 | 01 | 3.3V | Vcc |
