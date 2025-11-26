@@ -31,7 +31,7 @@ dtparam=act_led_gpio=1,act_led_trigger=mmc1
 | 01 | 3.3V | Vcc |
 | 09 | GND  | GND |
 | 11 | 17   | SW  |
-| 13 | 27   | A(DT) |
-| 15 | 22   | B(CLK) |
+| 13 | 27   | B(DT) |
+| 15 | 22   | A(CLK) |
 
-![Rotary Encoder](https://how2electronics.com/wp-content/uploads/2019/03/Rotary-Encoder-2.jpg)
+![Rotary Encoder](https://microcontrollerslab.com/wp-content/uploads/2021/11/Rotary-Encoder-pin-out.jpg)
