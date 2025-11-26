@@ -44,4 +44,4 @@ dtparam=act_led_gpio=1,act_led_trigger=mmc1
     - **Buttone1**: enable
     - **GPIO**: 17
     - **Cmd**: mpc toggle,mpc single & mpc repeat,/var/local/www/commandw/restart.sh poweroff
-  - **Cnd**: (short press command),(double press command),(long press command)
+  - **Cmd**: (short press command),(double press command),(long press command)
