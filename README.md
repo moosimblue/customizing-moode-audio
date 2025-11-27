@@ -1,4 +1,13 @@
 # customizing-moode-audio
+## Goal
+- Rotary Encoder Control
+  - Volume Knob
+  - Shor press : play/pause
+  - Double press : Repeat single play
+  - Long Press : Power Off
+- System Status LED
+- RGB LED Strinp VU Meter
+![Circuit](./Rpi Moode Audio.png)
 
 ## Power LED
 - append in /boot/firmware/config.txt
