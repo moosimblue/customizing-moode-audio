@@ -7,7 +7,7 @@
   - Long Press : Power Off
 - System Status LED
 - RGB LED Strinp VU Meter
-![Circuit](./Rpi Moode Audio.png)
+![Circuit](./Rpi%20Moode%20Audio.png)
 
 ## Power LED
 - append in /boot/firmware/config.txt
